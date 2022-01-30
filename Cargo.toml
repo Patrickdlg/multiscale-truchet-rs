@@ -1,0 +1,15 @@
+[package]
+name = "multiscale-truchet"
+description = "A cli for creating multi-scale truchet SVGs - based on <https://christophercarlson.com/portfolio/multi-scale-truchet-patterns/>"
+authors = ["Patrick De La Garza <patrickdlg@protonmail.com>"]
+version = "0.0.1"
+readme = "README.md"
+repository = "https://github.com/Patrickdlg/multiscale-truchet-rs"
+homepage = "https://github.com/Patrickdlg/multiscale-truchet-rs"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.4"
+clap = { version = "3.0.13", features = ["derive"] }
